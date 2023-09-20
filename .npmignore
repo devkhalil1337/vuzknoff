@@ -1,0 +1,29 @@
+# Ignore development and test files
+__tests__
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+*.d.ts
+dev/
+test/
+tests/
+docs/
+
+# Ignore build artifacts and directories
+dist/
+build/
+out/
+coverage/
+node_modules/
+
+# Ignore configuration files
+.eslintrc
+.prettierrc
+babel.config.js
+webpack.config.js
+tsconfig.json
+
+# Ignore version control files
+.git/
+.gitignore
